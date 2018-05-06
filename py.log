@@ -1,0 +1,17 @@
+2018-04-21 06:02:40,570 [Dummy-1:139713186899712] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2018-04-21 06:02:40,590 [Dummy-1:139713186899712] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2018-04-21 06:02:40,590 [Dummy-1:139713186899712] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SHOW FULL TABLES; args=None
+2018-04-21 06:02:40,592 [Dummy-1:139713186899712] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[m[21/Apr/2018 06:03:39]"GET /user/register/ HTTP/1.1" 200 2567
+[0m[36m[21/Apr/2018 06:03:39]"GET /static/js/register.js HTTP/1.1" 304 0
+[0m[33m[21/Apr/2018 06:03:39]"GET /favicon.ico HTTP/1.1" 404 2052
+[0m2018-04-21 06:03:42,943 [Thread-5:139713175287552] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2018-04-21 06:03:42,944 [Thread-5:139713175287552] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2018-04-21 06:03:42,945 [Thread-5:139713175287552] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT('*') AS `__count` FROM `df_user_userinfo` WHERE `df_user_userinfo`.`uname` = 'maxijia9'; args=('*', u'maxijia9')
+[m[21/Apr/2018 06:03:42]"GET /user/register_exist/?uname=maxijia9 HTTP/1.1" 200 12
+[0m[32m[21/Apr/2018 06:03:47]"POST /user/register_handle/ HTTP/1.1" 302 0
+[0m[m[21/Apr/2018 06:03:47]"GET /user/register/ HTTP/1.1" 200 2567
+[0m[32m[21/Apr/2018 09:11:16]"GET /user/register_handle HTTP/1.1" 301 0
+[0m[35;1m[21/Apr/2018 09:11:16]"GET /user/register_handle/ HTTP/1.0" 500 66982
+[0m[33m[21/Apr/2018 09:27:16]"GET / HTTP/1.1" 404 2018
+[0m
